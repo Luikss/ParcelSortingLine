@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Parcel_sorting_line {
-    class Program {
+namespace ParcelSortingLine {
+    public class Program {
         static void Main(string[] args) {
             ParcelLineFitController(BoxSizes);
         }
@@ -31,7 +31,6 @@ namespace Parcel_sorting_line {
                     } else if (sortingLine.LineWidth <= halfParcelDiagonal && sortingLine.LineWidth >= cornerDiagonal) {
                         parcelFits = sortingLine.LineWidth <= halfParcelDiagonal &&
                         sortingLine.LineWidth >= cornerDiagonal;
-
                         var result = parcelFits ? "Sorting line width is " + sortingLine.LineWidth + " and it fits" : "Parcel doesn't fit";
                         Console.WriteLine(result);
                     } else {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcel sorting line", "Parcel sorting line\Parcel sorting line.csproj", "{09F2B988-F06E-4705-9598-005CAC1E0133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelSortingLine", "Parcel sorting line\ParcelSortingLine.csproj", "{09F2B988-F06E-4705-9598-005CAC1E0133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAndSortingLine.Test", "BoxAndSortingLine.Test\BoxAndSortingLine.Test.csproj", "{2A5D32FE-C2E5-42C8-A61E-9EE8BD6888BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParcelSortingLine.Test", "BoxAndSortingLine.Test\ParcelSortingLine.Test.csproj", "{2A5D32FE-C2E5-42C8-A61E-9EE8BD6888BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
